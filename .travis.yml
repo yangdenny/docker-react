@@ -8,6 +8,7 @@ before_install:
 script:
   - docker run yangdenny/docker-react npm run test -- --coverage
 
+<<<<<<< HEAD
 deploy:
   provider: elasticbeanstalk
   region: "us-west-1"
@@ -21,3 +22,5 @@ deploy:
   secret_access_key:
         secure: "$AWS_SECRET_KEY" 
  
+=======
+>>>>>>> 9674a2868f40eda2d4393ba8131fba14016b4a2d

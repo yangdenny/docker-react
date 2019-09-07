@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 # this container for development only 
 
+=======
+>>>>>>> 9674a2868f40eda2d4393ba8131fba14016b4a2d
 FROM node:alpine
 
 WORKDIR '/app'
